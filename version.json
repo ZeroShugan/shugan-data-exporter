@@ -1,8 +1,52 @@
 {
-  "version": "3.2.0",
-  "release_date": "2024-12-19",
-  "release_notes": "Initial release with update checker",
-  "minimum_blender": "4.2.0",
+  "changelog": [
+    {
+      "version": "3.2.1",
+      "release_date": "2024-12-20",
+      "release_notes": "Major update with improved bone importing and changelog system",
+      "minimum_blender": "4.2.0",
+      "new_features": [
+        "Added changelog system with detailed release notes",
+        "Added 'What's New' popup dialog in Blender",
+        "Added multiple store support for updates",
+        "Added direct changelog viewing from Blender"
+      ],
+      "changes": [
+        "Improved bone import to properly override transforms",
+        "Enhanced update notification UI",
+        "Better error handling for network requests",
+        "Optimized startup update checking"
+      ],
+      "fixes": [
+        "Fixed bone transforms not being applied during import",
+        "Fixed parent relationship issues in armature import",
+        "Fixed update checker not working on some systems",
+        "Fixed UI freezing during update checks"
+      ]
+    },
+    {
+      "version": "3.2.0",
+      "release_date": "2024-12-19",
+      "release_notes": "Initial release with core functionality",
+      "minimum_blender": "4.2.0",
+      "new_features": [
+        "Export and import vertex group weights",
+        "Export and import armature bones with properties",
+        "Export and import shape keys",
+        "Multiple mesh and armature support",
+        "Smart backup system with restoration",
+        "Preset system for configuration management"
+      ],
+      "changes": [
+        "Complete rewrite of import/export system",
+        "Improved UI organization and workflow",
+        "Enhanced error reporting and user feedback"
+      ],
+      "fixes": [
+        "Initial release - no fixes yet"
+      ]
+    }
+  ],
   "stores": {
     "blender_market": {
       "name": "Blender Market",
