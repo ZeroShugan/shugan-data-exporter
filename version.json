@@ -1,0 +1,23 @@
+{
+  "version": "3.2.0",
+  "release_date": "2024-12-19",
+  "release_notes": "Initial release with update checker",
+  "minimum_blender": "4.2.0",
+  "stores": {
+    "blender_market": {
+      "name": "Blender Market",
+      "url": "https://blendermarket.com/products/your-product-name",
+      "icon": "URL"
+    },
+    "gumroad": {
+      "name": "Gumroad", 
+      "url": "https://yourusername.gumroad.com/l/your-product",
+      "icon": "URL"
+    },
+    "booth": {
+      "name": "Booth",
+      "url": "https://your-booth-shop.booth.pm/items/your-item-id",
+      "icon": "URL"
+    }
+  }
+}
